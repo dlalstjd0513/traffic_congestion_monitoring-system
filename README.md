@@ -26,6 +26,9 @@
 2. Google Drive에서 모델 파일(`last.pt`)을 다운로드한 후, 프로젝트 디렉토리에 배치하세요:
    [last.pt 다운로드](https://drive.google.com/file/d/1d7LYhLKPGwZ3rShYSOfe703X7n9PMCT_/view?usp=drive_link)
 
+   Google Drive에서 영상 파일(`cctv4.mp4`)를 다운로드한 후, 프로젝트 디렉토리에 배치하세요:
+   [cctv4.mp4 다운로드](https://drive.google.com/file/d/1d7LYhLKPGwZ3rShYSOfe703X7n9PMCT_/view?usp=drive_link)
+
 3. Flask 서버를 실행하세요:
    ```bash
    python traffic_system.py
@@ -40,15 +43,19 @@
 ```
 traffic_congestion_monitoring-system/
 ├── last.pt                # YOLOv8 모델 파일 (별도로 다운로드 필요)
+├── cctv4.mp4              # cctv 영상 파일 (별도로 다운로드 필요)
 ├── traffic_system.py      # 메인 애플리케이션 파일
 ├── result.png             # YOLOv8 학습 결과
 ├── README.md              # 프로젝트 문서
 └── data.yaml              # YOLOv8 학습 yaml파일
 ```
 
-## 모델 파일 정보
+## 파일 정보
 `last.pt` 파일은 차량 감지를 위한 사전 학습된 YOLOv8 모델을 포함합니다. 애플리케이션을 실행하기 전에 반드시 다운로드하세요.
+'cctv4.mp4'파일은 브라우저에서 사용되는 영상입니다. 애플리케이션을 실행하기 전에 반드시 다운로드하세요.
 
+## YOLOv8 모델 학습 결과
+![결과 이미지](result.png)
 ---
 
 ### 참고 사항
