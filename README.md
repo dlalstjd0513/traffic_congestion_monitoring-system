@@ -15,11 +15,6 @@
   - Ultralytics (YOLOv8)
   - Numpy
 
-다음 명령어로 필수 패키지를 설치하세요:
-```bash
-pip install -r requirements.txt
-```
-
 ## 사용 방법
 
 1. 저장소를 클론하세요:
@@ -46,9 +41,9 @@ pip install -r requirements.txt
 traffic_congestion_monitoring-system/
 ├── last.pt                # YOLOv8 모델 파일 (별도로 다운로드 필요)
 ├── traffic_system.py      # 메인 애플리케이션 파일
-├── requirements.txt       # 필요한 Python 패키지 목록
+├── result.png             # YOLOv8 학습 결과
 ├── README.md              # 프로젝트 문서
-└── static/                # 정적 파일 (예: CSS, 이미지)
+└── data.yaml              # YOLOv8 학습 yaml파일
 ```
 
 ## 모델 파일 정보
@@ -59,6 +54,3 @@ traffic_congestion_monitoring-system/
 ### 참고 사항
 - YOLOv8 모델을 효율적으로 실행하려면 GPU와 같은 필수 하드웨어가 필요합니다.
 - 문제가 발생하면 저장소의 이슈 탭에 문의하세요.
-
-## 라이선스
-이 프로젝트는 MIT 라이선스에 따라 배포됩니다.
