@@ -59,7 +59,7 @@ traffic_congestion_monitoring-system/
 ![결과 이미지](results.png)
 
 ## 시스템 결과
-![결과 이미지](system_result).png)
+![결과 이미지](system_result.png)
 ---
 
 ### 참고 사항
