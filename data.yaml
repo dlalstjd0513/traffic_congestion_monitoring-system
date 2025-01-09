@@ -1,0 +1,13 @@
+train: C:/dslab/yolov8_data/train/images  # 절대 경로로 수정
+val: C:/dslab/yolov8_data/valid/images
+test: C:/dslab/yolov8_data/test/images
+
+nc: 2
+names: ['cars', 'motorbike']
+
+roboflow:
+  workspace: project-tdxxb
+  project: cctv_car_bike_detection-fhqk8
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-tdxxb/cctv_car_bike_detection-fhqk8/dataset/6
