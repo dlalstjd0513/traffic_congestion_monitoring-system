@@ -27,7 +27,7 @@
    [last.pt 다운로드](https://drive.google.com/file/d/1d7LYhLKPGwZ3rShYSOfe703X7n9PMCT_/view?usp=drive_link)
 
    Google Drive에서 영상 파일(`cctv4.mp4`)를 다운로드한 후, 프로젝트 디렉토리에 배치하세요:
-   [cctv4.mp4 다운로드](https://drive.google.com/file/d/1d7LYhLKPGwZ3rShYSOfe703X7n9PMCT_/view?usp=drive_link)
+   [cctv4.mp4 다운로드](https://drive.google.com/file/d/1aa8HTQxzDRxQH0k8ES3SwbY883jzU0Ok/view?usp=drive_link)
 
 3. Flask 서버를 실행하세요:
    ```bash
@@ -45,7 +45,8 @@ traffic_congestion_monitoring-system/
 ├── last.pt                # YOLOv8 모델 파일 (별도로 다운로드 필요)
 ├── cctv4.mp4              # cctv 영상 파일 (별도로 다운로드 필요)
 ├── traffic_system.py      # 메인 애플리케이션 파일
-├── result.png             # YOLOv8 학습 결과
+├── results.png            # YOLOv8 학습 결과
+├── system_result.png      # 시스템 결과
 ├── README.md              # 프로젝트 문서
 └── data.yaml              # YOLOv8 학습 yaml파일
 ```
@@ -56,6 +57,9 @@ traffic_congestion_monitoring-system/
 
 ## YOLOv8 모델 학습 결과
 ![결과 이미지](results.png)
+
+## 시스템 결과
+![결과 이미지](system_result).png)
 ---
 
 ### 참고 사항
