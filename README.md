@@ -55,7 +55,7 @@ traffic_congestion_monitoring-system/
 'cctv4.mp4'파일은 브라우저에서 사용되는 영상입니다. 애플리케이션을 실행하기 전에 반드시 다운로드하세요.
 
 ## YOLOv8 모델 학습 결과
-![결과 이미지](result.png)
+![결과 이미지](results.png)
 ---
 
 ### 참고 사항
